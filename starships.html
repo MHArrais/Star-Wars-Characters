@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/darth_vader-icon.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+         <div class="logo">
+            <img src="./assets/Star_Wars_Logo..png" alt="logo" class="logo-img">
+            <span class="logo-text">Characters</span>
+         </div>
+        </a>
+
+        <a href="./planets.html">
+            <div class="logo">
+               <span class="logo-text">Planets</span>
+            </div>
+           </a>
+           
+        <a href="./starships.html">
+            <div class="logo">
+               <span class="logo-text">Starships</span>
+            </div>
+        </a>
+        <div class="social-media">
+            <a href="https://www.instagram.com/bonezdead?igsh=MW42YWZ4OGU3b3N5&utm_source=qr" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://github.com/MHArrais" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>   
+
+            <a href="https://www.linkedin.com/in/m%C3%A1rcio-henrique-arrais-dos-santos-1b2a97274/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <h2>Meet planets of Star Wars </h2>
+
+        <div class="main-content" id="main-content"></div>
+
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content"></div>
+        </div>
+        
+        <div class="buttons">
+            <button id="back-button" disabled>Back</button>
+            <button id="next-button" disabled>Next</button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p class="footer-logo">Star Wars Characters</p>
+        <p class="copyright">Developed by &copy; Henrique Arrais</p>
+    </footer>
+    
+
+    <script src="https://kit.fontawesome.com/d2f829561f.js" crossorigin="anonymous"></script>
+    <script src="./starships.js"></script>
+</body>
+</html>
